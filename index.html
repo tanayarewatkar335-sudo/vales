@@ -7,7 +7,7 @@
     body {
       margin: 0;
       height: 100vh;
-      linear-gradient(135deg, #ee9ca7, #ffdde1);
+      background:linear-gradient(135deg, #ee9ca7, #ffdde1);
       display: flex;
       justify-content: center;
       align-items: center;
@@ -43,10 +43,12 @@
       transition: 0.3s;
     }
 
-    .yes {
-      background: #ff4d6d;
-      color: white;
-    }
+   .yes {
+  background: linear-gradient(135deg, #f6d365, #fda085);
+  color: #5a2a27;
+  font-weight: 600;
+  box-shadow: 0 10px 20px rgba(253, 160, 133, 0.4);
+}
 
     .yes:hover {
   transform: scale(1.08);
@@ -80,7 +82,7 @@
   <script>
     function yesClicked() {
       document.body.innerHTML = `
-        <div style="text-align:center;color:blue;">
+        <div style="text-align:center;color:#b85042;">
           <h1 style="font-size:3rem;">YAY!!! 💘🌻🎉</h1>
           <p style="font-size:1.5rem;">You just made me the happiest person ❤️</p>
         </div>
